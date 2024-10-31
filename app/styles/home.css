@@ -1,0 +1,39 @@
+#content {
+    text-align: center;
+    color: var(--color-primary-10);
+  }
+
+  #cta {
+    margin-top: 1.5rem;
+  }
+
+  #cta a {
+    text-decoration: none;
+    background-color: var(--color-primary-400);
+    color: var(--color-primary-100);
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+
+  #cta a:hover {
+    background-color: var(--color-ptimary-100);
+  }
+
+
+  #cta2 a {
+    text-decoration: underline;
+
+    color: var(--color-primary-100);
+    padding: 0.1rem 2rem;
+    border-radius: 4px;
+    font-size: 0.5rem;
+  }
+
+
+  #logoMupa{
+    scale: 20%;
+    text-align: center;
+    align-content: center;
+
+  }
