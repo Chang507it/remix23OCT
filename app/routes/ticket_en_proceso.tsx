@@ -1,6 +1,9 @@
 import {Link} from '@remix-run/react';
 import NewNoteStyles from '/Users/juancarloschang/Desktop/remix23OCT/app/componentes/NewNote.css';
-import Login from '/Users/juancarloschang/Desktop/remix23OCT/app/componentes/login.jsx';
+
+export function links() {
+  return [{rel: 'stylesheet', href: NewNoteStyles}];
+}
 
 export default function Index(){
 

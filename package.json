@@ -17,15 +17,19 @@
     "@remix-run/serve": "^2.13.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "express": "^4.21.1",
     "isbot": "^4.1.0",
     "lucide-react": "^0.454.0",
+    "nodemailer": "^6.9.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sweetalert2": "^11.14.5",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",
+    "@types/nodemailer": "^6.4.16",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
@@ -45,5 +49,11 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  }
+  },
+  "description": "- 📖 [Remix docs](https://remix.run/docs)",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -15,12 +15,9 @@ function NewNote() {
     </div>
     </>
     </form >
-
-
     );
 
     }
-
 
     export default function NotaesPage(){
         return (

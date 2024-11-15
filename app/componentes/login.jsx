@@ -8,23 +8,18 @@ function Login() {
     <p>
         <label htmlFor="title"> CONTRASEÑA </label>
     <input type="password" id="password" name="contrasena" required /> </p>
-    <p>
-   </p>
-    <p>
-      </p>
-    <p>
-    <p>
-     </p>
-
-     </p>
-
+   <p> </p>
     </>
     </form >
-
-
     );
 
     }
 
-
     export default Login;
+
+
+
+
+
+
+    

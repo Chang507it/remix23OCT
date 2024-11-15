@@ -18,23 +18,12 @@
         #note-form textarea {
         width: 100%;
         font: inherit;
-        padding: 0.5rem 0.25 rem;
+        padding: 0.5rem 0.25rem;
         background-color: white;
         border: none;
         border-radius: 2px;
-        color: var (--color-primary-800);
+        color: var(--color-primary-800);
         }
-
-        #note-form input,
-#note-form textarea {
-    width: 100%;
-    font: inherit;
-        padding: 0.5rem 0.25 rem;
-    background-color:white;
-    border: none;
-    border-radius: 2px;
-    color: var(--color-primary-800);
-    }
 
 .form-actions {
 text-align: center;
@@ -51,11 +40,11 @@ text-align: center;
     color: black;
     font-weight: bold; font-size: 1.05 rem;
     }
-    .form-actions button hover {
+    .form-actions button:hover {
     background-color: var(--color-primary-200);
     }
     .form-actions button:disabled {
-        background-color: var (--color-primary-200);
-        color: var (--color-primary-300);
+        background-color: var(--color-primary-200);
+        color: var(--color-primary-300);
         cursor: not-allowed;
     }

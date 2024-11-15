@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { json } from '@remix-run/node'
-import { useLoaderData } from '@remix-run/react'
+import { useLoaderData, Link } from '@remix-run/react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
-import {Link} from '@remix-run/react';
 
 
 // Define the type for our FAQ items

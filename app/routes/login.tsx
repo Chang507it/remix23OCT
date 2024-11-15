@@ -19,7 +19,7 @@ export default function Index(){
                  className="hidden w-full dark:block"
                  />
 
-<h1>Bienvenido a "Mis Tickets MUPA"</h1>
+<h1>Bienvenido a &quot;Mis Tickets MUPA&quot;</h1>
     <p>Ingrese su usuario y contraseña</p>
     <p id="cta"></p>
         < Login/>

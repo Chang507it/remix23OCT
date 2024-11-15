@@ -1,6 +1,5 @@
 import {Link} from '@remix-run/react';
 import NewNoteStyles from '/Users/juancarloschang/Desktop/remix23OCT/app/componentes/NewNote.css';
-import Login from '/Users/juancarloschang/Desktop/remix23OCT/app/componentes/login.jsx';
 import EmailReset from '/Users/juancarloschang/Desktop/remix23OCT/app/componentes/EmailReset.jsx';
 
 export default function Index(){

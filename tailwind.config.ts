@@ -5,7 +5,7 @@ export default {
     content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
       extend: {
-        
+
           borderRadius: {
               lg: 'var(--radius)',
               md: 'calc(var(--radius) - 2px)',

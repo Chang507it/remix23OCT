@@ -2,26 +2,26 @@ import {Link} from '@remix-run/react';
 
 
 
-
-
-export default function Index(){
-
-
-    return<>
-
-    <main id="content">
-            <img id="logoMupa"
+                                    
+                                    
+export default function Index(){    
+                                    
+                                    
+    return<>                        
+                                    
+    <main id="content">             
+            <img id="logoMupa"      
                 src="/MTM-light.png"
-                  alt="MTM logo"
+                  alt="MTM logo"    
             className="block w-full dark:hidden"
-            />
-            <img id="logoMupa"
-                src="/MTM-dark.png"
-                 alt="MTM logo"
+            />                      
+            <img id="logoMupa"      
+                src="/MTM-dark.png" 
+                 alt="MTM logo"     
                  className="hidden w-full dark:block"
-                 />
-
-<h1>Bienvenido a "Mis Tickets MUPA"</h1>
+                 />                 
+                                    
+<h1>Bienvenido a &quot;Mis Tickets MUPA&quot;</h1>
     <p>Seleccione una Opción</p>
     <ul>
     <li id="cta"><Link to="/crear_ticket">CREAR TICKET</Link></li>
